@@ -2,31 +2,31 @@ package chapter04.dog;
 
 public class ElectronicGuitar {
 
-    String brand;
-    int numOfPickups;
-    boolean rockStarUsesIt;
+    private String brand;
+    private int numOfPickups;
+    private boolean rockStarUsesIt;
 
-    String getBrand() {
+    public String getBrand() {
         return brand;
     }
 
-    void setBrand(String aBrand) {
+    public void setBrand(String aBrand) {
         brand = aBrand;
     }
 
-    int getNumOfPickups() {
+    public int getNumOfPickups() {
         return numOfPickups;
     }
 
-    void setNumOfPickups(int num) {
+    public void setNumOfPickups(int num) {
         numOfPickups = num;
     }
 
-    boolean getRockStarUsesIt() {
+    public boolean getRockStarUsesIt() {
         return rockStarUsesIt;
     }
 
-    void setRockStarUsesIt(boolean yesOrNo) {
+    public void setRockStarUsesIt(boolean yesOrNo) {
         rockStarUsesIt = yesOrNo;
     }
 }
