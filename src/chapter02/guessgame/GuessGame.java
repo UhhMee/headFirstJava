@@ -1,4 +1,4 @@
-package chapter02.guessGame;
+package chapter02.guessgame;
 
 public class GuessGame {
     Player p1, p2, p3;
