@@ -1,4 +1,4 @@
-package chapter04.dog;
+package chapter04;
 
 public class ElectronicGuitar {
 
